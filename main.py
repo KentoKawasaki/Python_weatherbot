@@ -28,6 +28,7 @@ handler = WebhookHandler(LINE_BOT_CHANNEL_SECRET)
 @app.route("/")
 def hello_world():
     return "hello world!"
+    
 
 #/callbackのリンクにアクセスした時の処理。webhook用
 @app.route("/callback", methods=['POST'])

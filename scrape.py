@@ -35,6 +35,6 @@ def getWeather():
     temp_min = temp[2].span.string
     temp_min_diff = temp[3].string #最低気温の前日比
 
-    return weather + temp_max + temp_min
+    return "今日の天気は{0}\n最高気温{1}℃\n最低気温{2}℃".format(weather,temp_max,temp_min)
     
     
