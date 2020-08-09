@@ -25,9 +25,9 @@ line_bot_api = LineBotApi(LINE_CHANNEL_ACCESS_TOKEN)
 handler = WebhookHandler(LINE_CHANNEL_SECRET)
 
 #アプリケーション本体をopenすると実行される部分
-@app.route("/")
-def hello_world():
-    return "hello world!"
+# @app.route("/")
+# def hello_world():
+#     return "hello world!"
     
 
 #/callbackのリンクにアクセスした時の処理。webhook用
